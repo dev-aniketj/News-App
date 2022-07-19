@@ -15,9 +15,22 @@ class HomeActivity : AppCompatActivity() {
         setContentView(view)
 
 //        setup RecyclerView
-        binding.recyclerView.layoutManager= LinearLayoutManager(this)
-        
+        binding.recyclerView.layoutManager = LinearLayoutManager(this)
+        val items = fetchData()
+        val adapter: NewsAdapter = NewsAdapter(items)
 
 
     }
+
+    private fun fetchData(): ArrayList<String> {
+        val arrayList: ArrayList<String> = ArrayList<String>()
+
+        for (i in 0 until 10){
+            arrayList.add("Item $i")
+        }
+
+
+        return arrayList
+    }
+
 }
