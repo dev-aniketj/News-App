@@ -9,9 +9,9 @@
     <color name="white">#FFFFFFFF</color>
 
     <!-- App Colors -->
-    <color name="mainBGColor">#DCDCDC</color>
+    <color name="mainBGColor">#fefefe</color>
     <color name="textColor">#333333</color>
-    <color name="blockColor">#f5ccff</color>
+    <color name="blockColor">#FBECFF</color>
 
 
 </resources>
